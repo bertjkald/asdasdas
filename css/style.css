@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #a00,#600, #f00);
+}
+
+.albums {
+    display: grid;
+    gap: 20px;
+    /*span elements across as long as there is enough space*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
